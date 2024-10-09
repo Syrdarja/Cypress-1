@@ -1,0 +1,18 @@
+{
+  "name": "cypress1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --config-file cypress.config.js --browser chrome --headed",
+    "test1": "npx cypress run --config-file cypress1.config.js --browser firefox --headed",
+    "test2": "npx cypress run --config-file cypress1.config.js --browser chrome --headless",
+    "test3": "npx cypress run --config-file cypress.config.js --browser firefox --headless"
+  },
+  "keywords": [],
+  "author": "Marina Prokhacheva",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.15.0"
+  }
+}
